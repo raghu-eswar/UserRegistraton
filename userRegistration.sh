@@ -37,9 +37,9 @@ function takeMobileNumber() {
 }
 
 function takeData() {
-	takeFirstName;
-	takeLastName;
-	takeEmailId;
+    takeFirstName;
+    takeLastName;
+    takeEmailId;
     takeMobileNumber;
 }
 
