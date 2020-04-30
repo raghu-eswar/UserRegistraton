@@ -28,4 +28,10 @@ public class InputValidationTest {
         boolean isValid = inputValidation.validateUserMobileNumber("86 9876543210");
         Assert.assertEquals(true,isValid);
     }
+
+    @Test
+    public void userPasswordValidation() {
+        boolean isValid = inputValidation.validateUserPassword("P@ssw0rd");
+        Assert.assertEquals(true, isValid);
+    }
 }
