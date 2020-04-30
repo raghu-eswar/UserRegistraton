@@ -23,4 +23,9 @@ public class InputValidationTest {
         Assert.assertEquals(true,isValid);
     }
 
+    @Test
+    public void userMobileNumberValidation() {
+        boolean isValid = inputValidation.validateUserMobileNumber("86 9876543210");
+        Assert.assertEquals(true,isValid);
+    }
 }
