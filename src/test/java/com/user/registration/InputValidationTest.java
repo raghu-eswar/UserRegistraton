@@ -16,4 +16,11 @@ public class InputValidationTest {
         boolean isValid = inputValidation.validateUserName("Names");
         Assert.assertEquals(true, isValid);
     }
+
+    @Test
+    public void userEmailValidation() {
+        boolean isValid = inputValidation.validateUserEmail("raghu55@gmail.com");
+        Assert.assertEquals(true,isValid);
+    }
+
 }
